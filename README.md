@@ -5,6 +5,7 @@ Codes for Imperial College London MSc research project: Uncovering shared neural
 Python environment based on https://github.com/BeNeuroLab/2022-preserved-dynamics
 
 Additional package: CEBRA - https://cebra.ai/docs/installation.html
+                    CCA-zoo - https://github.com/jameschapman19/cca_zoo
 
 Part of center-out task data: https://doi.org/10.5061/dryad.xd2547dkt
 
