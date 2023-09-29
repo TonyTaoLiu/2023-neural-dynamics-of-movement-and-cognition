@@ -76,7 +76,7 @@ for full_name in dirs:
     data['Spikes_count'] = np.array(
         [pyal.smooth_data(data['Spikes_count'][ii, ...], win=win, backend='convolve1d') / 0.03 for ii in
          range(data['Spikes_count'].shape[0])]) # computing firing rate in smooth manner
-    data['Spikes_count'] = data['Spikes_count'][:, 50:66, :] # select windows for analysis
+    data['Spikes_count'] = data['Spikes_count'][:, 50:66, :] # select windows for analysis; delay: 84-100; target: 117-133
 
     allDFs.append(data)
     full_list.append((animal,session))

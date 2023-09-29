@@ -33,7 +33,7 @@ finally:
 data_path = '../../../cognitive data/actualUsed'
 file_name = 'Extracted_spikes_cue_drift_30.mat' # change file name for analysis of different periods
 # change the start and end point of window when analyzing different periods
-allDFs,full_list,n_shared_trial,target_num,n_timepoints = load_data(data_path,file_name,50,66)
+allDFs,full_list,n_shared_trial,target_num,n_timepoints = load_data(data_path,file_name,50,66) # delay: 84-100; target: 117-133
 
 print('load successfully')
 

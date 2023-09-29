@@ -37,7 +37,7 @@ finally:
 data_path = '../../../cognitive data/sixSession'
 file_name = 'Extracted_spikes_target_drift_30.mat' # change file name for analysis of different periods
 # change the start and end point of window when analyzing different periods
-allDFs,full_list,n_shared_trial,target_num,n_timepoints = load_data(data_path,file_name,117,133)
+allDFs,full_list,n_shared_trial,target_num,n_timepoints = load_data(data_path,file_name,117,133) # delay: 84-100; cue: 50-66
 
 pairIndex_uni = [[],[],[]]
 for i, (animal, session) in enumerate(full_list):

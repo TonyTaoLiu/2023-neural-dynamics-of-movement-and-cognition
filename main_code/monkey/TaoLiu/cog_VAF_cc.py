@@ -108,7 +108,7 @@ file_name = 'Extracted_spikes_target_drift_30.mat' # change file name for analys
 
 # change the start and end point of window when analyzing different periods
 # allDFs0,full_list0,n_shared_trial0,target_num0,n_timepoints0 = load_data(data_path,file_name,1,12)
-allDFs1,full_list1,n_shared_trial1,target_num1,n_timepoints1 = load_data(data_path,file_name,84,100)
+allDFs1,full_list1,n_shared_trial1,target_num1,n_timepoints1 = load_data(data_path,file_name,84,100) # cue: 50-66; target: 117-133
 # allDFs2,full_list2,n_shared_trial2,target_num2,n_timepoints2 = load_data(data_path,file_name,23,34)
 
 pairIndex_uni = [[],[],[]]
